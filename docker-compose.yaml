@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  env_test_docker-compose:
+    image: env_test:latest
+    environment:
+      test: this is a docker compose test 1
+      docker_test: this is a docker compose test 2

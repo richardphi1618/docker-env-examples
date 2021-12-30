@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  env_test_docker-compose:
+    image: env_test:latest
+    env_file:
+      - docker-compose.env
